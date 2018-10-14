@@ -51,7 +51,8 @@ nnoremap <C-y> :tabmove -
 nnoremap <C-o> :tabmove -
 
 " create new tab
-nnoremap <leader>tn :tabnew
+nnoremap <leader>tn :tabnew
+nnoremap <leader>tc :tabclose
 
 " 
 
