@@ -29,18 +29,12 @@ nnoremap <leader>b :'<,'>s/\v *([-+*/%!&><,;=\|]+) */ \1 /g
 tnoremap <Esc> <C-\><C-n>
 
 " navigating windows with alt+[h|j|k|l]
-tnoremap <A-h> <C-\><C-N><C-w>h
-tnoremap <A-j> <C-\><C-N><C-w>j
-tnoremap <A-k> <C-\><C-N><C-w>k
-tnoremap <A-l> <C-\><C-N><C-w>l
-inoremap <A-h> <C-\><C-N><C-w>h
-inoremap <A-j> <C-\><C-N><C-w>j
-inoremap <A-k> <C-\><C-N><C-w>k
-inoremap <A-l> <C-\><C-N><C-w>l
-nnoremap <A-h> <C-w>h
-nnoremap <A-j> <C-w>j
-nnoremap <A-k> <C-w>k
-nnoremap <A-l> <C-w>l
+tnoremap <C-j> <C-\><C-N><C-w>w
+tnoremap <C-k> <C-\><C-N><C-w>W
+inoremap <C-j> <C-\><C-N><C-w>w
+inoremap <C-k> <C-\><C-N><C-w>W
+nnoremap <C-j> <C-w>w
+nnoremap <C-k> <C-w>W
 
 " navigating throug tabs with ctrl+[h|l]
 nnoremap <C-h> gT
