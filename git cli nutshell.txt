@@ -1,0 +1,17 @@
+GIT command line in a nutshell
+
+Start project :
+git init
+
+Add file
+git add path/filename
+
+commit
+git commit -m "commit message"
+
+to add new remote repository from existing project :
+[create new repository in github, copy the url]
+git remote add origin [paste url]
+[optional: verifies new remote url] git remote -v
+git push origin master
+
