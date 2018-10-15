@@ -5,6 +5,9 @@ set expandtab
 let mapleader = ","
 let @s = "Oc()hpl%"
 
+" set the current directory to the one of the current file
+nnoremap <leader> :lcd %:h
+
 
 "inserts ', ' between words inside selection
 vnoremap <leader>, :s/\%V \+/, /g
